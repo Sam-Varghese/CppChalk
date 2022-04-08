@@ -45,3 +45,9 @@ int main()
 - Bright white (`Chalk.brightWhite`)
 
 ---
+
+## Examples
+
+---
+
+- Checkout the [examples](/examples/) to know how to make use of this header file.
