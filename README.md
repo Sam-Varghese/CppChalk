@@ -2,6 +2,10 @@
 
 ---
 
+![demo](examples/example1/output1.png)
+
+---
+
 > CppChalk is an headerfile which enables us to print colorful text to the standard output.
 
 ---
@@ -29,14 +33,14 @@ int main()
 
 ---
 
-- Blue (`Chalk.blue`)
-- Green (`Chalk.green`)
-- Cyan (`Chalk.cyan`)
-- Red (`Chalk.red`)
-- Purple (`Chalk.purple`)
-- Yellow (`Chalk.yellow`)
-- White (`Chalk.white`)
-- Grey (`Chalk.grey`)
+- Blue (`Chalk.blue`) 🟦
+- Green (`Chalk.green`)🟩
+- Cyan (`Chalk.cyan`) 
+- Red (`Chalk.red`) 🟥
+- Purple (`Chalk.purple`) 🟪
+- Yellow (`Chalk.yellow`) 🟨
+- White (`Chalk.white`) ⬜
+- Grey (`Chalk.grey`) 
 - Bright blue (`Chalk.brightBlue`)
 - Bright green (`Chalk.brightGreen`)
 - Bright cyan (`Chalk.brightCyan`)
