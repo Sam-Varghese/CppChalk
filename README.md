@@ -14,7 +14,7 @@
 - Now here is a code snippet explaining how to implement this header file
 
 ```cpp
-#include "chalk.h"
+#include "chalk.h" // Replace chalk.h with the relative path to the chalk.h header file
 #include <string>
 
 using namespace std;
