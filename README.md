@@ -16,7 +16,6 @@
 ```cpp
 #include "chalk.h" // Replace chalk.h with the relative path to the chalk.h header file
 
-using namespace std;
 int main()
 {
     Chalk Chalk;
