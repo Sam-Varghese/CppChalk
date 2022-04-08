@@ -2,4 +2,4 @@
 
 ---
 
-CppChalk is an headerfile which enables us to print colorful text to the standard output.
+> CppChalk is an headerfile which enables us to print colorful text to the standard output.
