@@ -51,3 +51,7 @@ int main()
 ---
 
 - Checkout the [examples](/examples/) to know how to make use of this header file.
+
+---
+
+![Thankyou](images/thankyou.webp)
