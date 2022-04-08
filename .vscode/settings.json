@@ -2,5 +2,6 @@
     "files.associations": {
         "iostream": "cpp",
         "xstring": "c"
-    }
+    },
+    "cSpell.words": ["headerfile"]
 }
