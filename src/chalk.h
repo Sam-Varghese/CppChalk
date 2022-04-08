@@ -41,6 +41,10 @@ public:
     {
         SetTextColor(7, Text);
     }
+    void grey(std::string Text)
+    {
+        SetTextColor(8, Text);
+    }
     void brightBlue(std::string Text)
     {
         SetTextColor(9, Text);
@@ -60,5 +64,9 @@ public:
     void magenta(std::string Text)
     {
         SetTextColor(13, Text);
+    }
+    void brightWhite(std::string Text)
+    {
+        SetTextColor(15, Text);
     }
 };

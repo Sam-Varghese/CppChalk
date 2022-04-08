@@ -22,3 +22,26 @@ int main()
     Chalk.red("Hello world");
 }
 ```
+
+---
+
+## Supported colors
+
+---
+
+- Blue
+- Green
+- Cyan
+- Red
+- Purple
+- Yellow
+- White
+- Grey
+- Bright blue
+- Bright green
+- Bright cyan
+- Bright red
+- Bright magenta
+- Bright white
+
+---
