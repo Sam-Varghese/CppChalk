@@ -29,19 +29,19 @@ int main()
 
 ---
 
-- Blue
-- Green
-- Cyan
-- Red
-- Purple
-- Yellow
-- White
-- Grey
-- Bright blue
-- Bright green
-- Bright cyan
-- Bright red
-- Bright magenta
-- Bright white
+- Blue (`Chalk.blue`)
+- Green (`Chalk.green`)
+- Cyan (`Chalk.cyan`)
+- Red (`Chalk.red`)
+- Purple (`Chalk.purple`)
+- Yellow (`Chalk.yellow`)
+- White (`Chalk.white`)
+- Grey (`Chalk.grey`)
+- Bright blue (`Chalk.brightBlue`)
+- Bright green (`Chalk.brightGreen`)
+- Bright cyan (`Chalk.brightCyan`)
+- Bright red (`Chalk.brightRed`)
+- Bright magenta (`Chalk.brightMagenta`)
+- Bright white (`Chalk.brightWhite`)
 
 ---
