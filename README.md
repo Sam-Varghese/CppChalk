@@ -2,7 +2,7 @@
 
 ---
 
-![demo](examples/example1/output1.png)
+![demo](images/demoImage.png)
 
 ---
 

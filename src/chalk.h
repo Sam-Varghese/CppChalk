@@ -106,7 +106,7 @@ public:
     // To get grey colored font in blue background
     void BgBlueFgGrey(std::string Text)
     {
-        SetTextColor(24, Text)
+        SetTextColor(24, Text);
     }
     // To get green colored font in blue background
     void BgBlueFgGreen(std::string Text)
@@ -156,14 +156,14 @@ public:
     {
         SetTextColor(46, Text);
     }
-    
+
 
     void printLoop()
     {
         for (int i = 0; i < 300; i++)
         {
-            std::cout << "\nColor number: " << i << "\n";
-            SetTextColor(i, "Sam is good\n");
+            // std::cout << "\nColor number: " << i << "\n";
+            SetTextColor(i, "Hello world!\t");
         }
     }
 };
