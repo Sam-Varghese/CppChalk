@@ -83,24 +83,32 @@ public:
     {
         SetTextColor(15, Text);
     }
-    void bgBlueFgBlack(){
+    // To get black colored fonts, in blue colored background
+    void bgBlueFgBlack(std::string Text){
         SetTextColor(16, Text);
     }
-    void bgBlueFgWhite(){
-        SetTextColor(17, Text);
+    // To get white colored fonts with blue background
+    void bgBlueFgWhite(std::string Text){
+        SetTextColor(22, Text);
     }
-    void BgBlueFgRed(){
-        SetTextColor(52, Text);
+    // To get red colored font in blue background
+    void BgBlueFgRed(std::string Text){
+        SetTextColor(20, Text);
     }
-    void bgGreenFgBlack(){
+    // To get grey colored font in blue background
+    // To get black colored font in green background
+    void bgGreenFgBlack(std::string Text){
         SetTextColor(32, Text);
     }
-    void bgGreenFgWhite(){
+    // To get white colored font in green background
+    void bgGreenFgWhite(std::string Text){
         SetTextColor(34, Text);
     }
-    void bgGreenFgRed(){
+    // To get red colored font in green background
+    void bgGreenFgRed(std::string Text){
         SetTextColor(36, Text);
     }
+
     void printLoop()
     {
         for (int i = 0; i < 300; i++)
