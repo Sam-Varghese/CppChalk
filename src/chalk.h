@@ -157,38 +157,50 @@ public:
         SetTextColor(46, Text);
     }
     // To get white colored text in green background
-    void bgGreenFgWhite(std::Text){
+    void bgGreenFgWhite(std::Text)
+    {
         SetTextColor(47, Text);
     }
 
     //* Working for light blue background and combination of other text colors
 
     // To get black colored text in light blue background
-    void bgLightBlueFgBlack(std::Text){
+    void bgLightBlueFgBlack(std::Text)
+    {
         SetTextColor(48, Text);
     }
     // To get blue colored text in light blue background
-    void bgLightBlueFgBlue(std::Text){
+    void bgLightBlueFgBlue(std::Text)
+    {
         SetTextColor(49, Text);
     }
     // To get green colored text in light blue background
-    void bgLightBlueFgGreen(std::Text){
+    void bgLightBlueFgGreen(std::Text)
+    {
         SetTextColor(50, Text);
     }
     // To get red colored text in light blue background
-    void bgLightBlueFgRed(std::Text){
+    void bgLightBlueFgRed(std::Text)
+    {
         SetTextColor(52, Text);
     }
     // To get white colored text in light blue background
-    void bgLightBlueFgWhite(std::Text){
+    void bgLightBlueFgWhite(std::Text)
+    {
         SetTextColor(54, Text);
     }
     // To get light green colored text in light blue background
-    void bgLightBlueFgLightGreen(std::Text){
+    void bgLightBlueFgLightGreen(std::Text)
+    {
         SetTextColor(58, Text);
     }
+    // TO get cyan colored text in light blue background
+    void bgLightBlueFgCyan(std::Text)
+    {
+        SetTextColor(59, Text);
+    }
 
-        void printLoop()
+    void printLoop()
     {
         for (int i = 0; i < 300; i++)
         {
