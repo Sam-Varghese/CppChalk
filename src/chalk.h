@@ -157,7 +157,7 @@ public:
         SetTextColor(46, Text);
     }
     // To get white colored text in green background
-    void bgGreenFgWhite(std::Text)
+    void bgGreenFgWhite(std::string Text)
     {
         SetTextColor(47, Text);
     }
@@ -165,39 +165,87 @@ public:
     //* Working for light blue background and combination of other text colors
 
     // To get black colored text in light blue background
-    void bgLightBlueFgBlack(std::Text)
+    void bgLightBlueFgBlack(std::string Text)
     {
         SetTextColor(48, Text);
     }
     // To get blue colored text in light blue background
-    void bgLightBlueFgBlue(std::Text)
+    void bgLightBlueFgBlue(std::string Text)
     {
         SetTextColor(49, Text);
     }
     // To get green colored text in light blue background
-    void bgLightBlueFgGreen(std::Text)
+    void bgLightBlueFgGreen(std::string Text)
     {
         SetTextColor(50, Text);
     }
     // To get red colored text in light blue background
-    void bgLightBlueFgRed(std::Text)
+    void bgLightBlueFgRed(std::string Text)
     {
         SetTextColor(52, Text);
     }
     // To get white colored text in light blue background
-    void bgLightBlueFgWhite(std::Text)
+    void bgLightBlueFgWhite(std::string Text)
     {
         SetTextColor(54, Text);
     }
     // To get light green colored text in light blue background
-    void bgLightBlueFgLightGreen(std::Text)
+    void bgLightBlueFgLightGreen(std::string Text)
     {
         SetTextColor(58, Text);
     }
-    // TO get cyan colored text in light blue background
-    void bgLightBlueFgCyan(std::Text)
+    // To get cyan colored text in light blue background
+    void bgLightBlueFgCyan(std::string Text)
     {
         SetTextColor(59, Text);
+    }
+    // To get magenta colored text in light blue background
+    void bgLightBlueFgMagenta(std::string Text)
+    {
+        SetTextColor(61, Text);
+    }
+    // To get yellow colored text in light blue background
+    void bgLightBlueFgYellow(std::string Text)
+    {
+        SetTextColor(62, Text);
+    }
+
+    //* Working for red background and combination of other text colors
+
+    // To get black colored text in red background
+    void bgRedFgBlack(std::string Text)
+    {
+        SetTextColor(64, Text);
+    }
+    // To get blue colored text in red background
+    void bgRedFgBlue(std::string Text)
+    {
+        SetTextColor(65, Text);
+    }
+    // To get green colored text in red background
+    void bgRedFgGreen(std::string Text)
+    {
+        SetTextColor(66, Text);
+    }
+    // To get light green colored text in red background
+    void bgRedFgLightGreen(std::string Text)
+    {
+        SetTextColor(74, Text);
+    }
+    // To get cyan colored in red background
+    void bgRedFgCyan(std::string Text)
+    {
+        SetTextColor(75, Text);
+    }
+    // To get pink colored text in red background
+    void bgRedFgPink(std::string Text)
+    {
+        SetTextColor(77, Text);
+    }
+    // To get yellow colored text in red background
+    void bgRedFgYellow(std::string Text)
+    {
+        SetTextColor(78, Text);
     }
 
     void printLoop()
